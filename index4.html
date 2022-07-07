@@ -1,0 +1,47 @@
+<table>
+    <caption  style="color:yellow; background-color: black;">Table Title</caption> <!--| caption is the first child of table |--> 
+    <thead style="background-color: pink"> <!--======================| thead is after caption |-->
+        <tr>
+            <th scope="col"; style="border: orange 3px solid;">Header content 1</th> 
+            <th scope="col"; style="border: orange 3px solid;">Header content 2</th>
+        </tr> 
+    </thead>
+
+    <tfoot style="background-color: green;"><!--| tfoot can be placed before or after tbody, but not in a group of tbody. |--> 
+        <!--| Regardless where tfoot is in markup, it is rendered at the bottom. |-->
+            <tr>
+                <td style="border: red 3px solid ;">Footer content 1</td> 
+                <td style="border: red 3px solid ;">Footer content 2</td>
+            </tr> 
+    </tfoot>
+
+    <tbody style="background-color: blue;"> <!--======================| tbody is after thead |-->
+        <tr>
+            <td style="border: red 3px solid ;">Body content 1</td> 
+            <td style="border: red 3px solid ;">Body content 2</td>
+        </tr> 
+    </tbody>
+</table>
+
+
+<table>
+    <thead>
+        <tr>
+            <td></td>
+            <th scope="col">Column Heading 1</th> 
+            <th scope="col">Column Heading 2</th>
+        </tr> 
+    </thead> 
+    <tbody>
+        <tr>
+            <th scope="row">Row Heading 1</th> 
+            <td></td>
+            <td></td> 
+        </tr>
+        <tr>
+            <th scope="row">Row Heading 1</th> 
+            <td></td>
+            <td></td> 
+        </tr>
+    </tbody>
+</table>
